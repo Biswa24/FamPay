@@ -12,6 +12,6 @@ docker build -t assignment:1 -f Dockerfile .
 ```
 #### once build is complete run the image 
 ```
-docker run  -p 8000:8000 --name assignment_1 localhost/assignment:1
+docker run  -p 8001:8001 --name assignment_1 localhost/assignment:1
 ```
 #### Application will be up & running 8000 port

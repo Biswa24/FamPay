@@ -9,8 +9,8 @@ COPY ./assignment /opt/assignment
 WORKDIR /opt/assignment
 
 # expose the port 8000
-EXPOSE 8000
+EXPOSE 8001
 
 ENV FLASK_ENV=development
 
-CMD ["python3", "app.py", "-p 8000"]
+CMD ["python3", "app.py", "-p 8001"]
